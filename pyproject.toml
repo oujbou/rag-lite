@@ -1,0 +1,14 @@
+[project]
+name = "rag-lite"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.142.2",
+    "langgraph>=1.2.12",
+    "openai>=3.23.0",
+    "pymupdf>=1.28.2",
+    "python-dotenv>=1.2.4",
+    "qdrant-client>=1.19.1",
+    "sentence-transformers>=6.1.0",
+]
